@@ -27,7 +27,7 @@ function App() {
   rel="noopener noreferrer"
   className="whatsapp-float"
 >
-  <i className="fab fa-whatsapp"></i>
+  <i className="fa-brands fa-whatsapp"></i>
   <span>WhatsApp</span>
 </a>
 

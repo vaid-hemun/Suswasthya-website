@@ -123,6 +123,8 @@ code, pre {
 /* Icon */
 .whatsapp-float i {
   font-size: 20px;
+  font-size: 26px;
+  color: white;
 }
 
 /* Hover Effect */
@@ -140,17 +142,35 @@ code, pre {
 /* ===== MOBILE VERSION ===== */
 @media (max-width: 768px) {
   .whatsapp-float {
-    bottom: 15px;
-    right: 15px;
-    padding: 10px 14px;
-    font-size: 14px;
+    position: fixed;
+    bottom: 20px;
+    right: 25px;
+
+    width: 50px;
+    height: 50px;
+
+    padding: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: #25D366 !important; /* ADD THIS */
+    color: #fff !important; /* ADD THIS */
+
+    z-index: 9999;
   }
 
   .whatsapp-float span {
-    display: none; /* Only icon on mobile */
+    display: none;
   }
 
   .whatsapp-float i {
-    font-size: 22px;
+    font-size: 26px;
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
