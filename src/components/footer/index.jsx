@@ -82,7 +82,7 @@ const Footer = () => {
 
         <div className="text-center mt-3 heading-dark font-manrope">
           <h6>
-            &copy; {new Date().getFullYear()} Suswasthya Internation Pvt. Ltd.
+            &copy; {new Date().getFullYear()} Suswasthya International Pvt. Ltd.
             All rights reserved.
           </h6>
           <div className="text-center mt-3 heading-dark font-manrope">
