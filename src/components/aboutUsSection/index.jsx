@@ -54,7 +54,7 @@ const AboutUs = () => {
             <div className="card h-100 border-0 shadow-sm p-4">
               <div className="d-flex align-items-center mb-3">
                 <Truck className="text-success me-2" />
-                <h5 className="fw-bold mb-0 text-success">Suswasthya Internation Pvt. Ltd· Trading & Distribution</h5>
+                <h5 className="fw-bold mb-0 text-success">Suswasthya International Pvt. Ltd· Trading & Distribution</h5>
               </div>
               <p className="text-muted-desc font-manrope heading-light">
                 Manages nationwide trading, marketing, and distribution, ensuring products reach hospitals, clinics, distributors, and retailers efficiently with reliable logistics, strong partnerships, and timely delivery.
